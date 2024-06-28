@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+#Animated_Circle1{animation: wiggle_1 10s infinite;}@keyframes wiggle_1 {0%,100%{transform: translate(0%,0%);}50%{transform: translate(100%,150%);}}
+#Animated_Circle2{animation: wiggle_2 10s infinite reverse;}@keyframes wiggle_2 {0%,100%{transform: translate(-50%,-50%);}50%{transform: translate(100%,50%);}}
+#Animated_Circle3{animation: wiggle_3 10s infinite;}@keyframes wiggle_3 {0%,100%{transform: translate(150%,-250%);}50%{transform: translate(200%,-350%);}}
+.slide1{animation: slide1 1s .3s 1 forwards;}@keyframes slide1 {from{transform: translateX(-250%);}to{transform: translateX(0%);}}
+.slide2{animation: slide2 1s .5s 1 forwards;}@keyframes slide2 {from{transform: translateX(-220%);}to{transform: translateX(0%);}}
+.slide3{animation: slide3 1s .7s 1 forwards;}@keyframes slide3 {from{transform: translateX(-220%);}to{transform: translateX(0%);}}
+.slide4{animation: slide4 1s 1 forwards ease-out;}@keyframes slide4 {from{width: 0rem;}to{width: 50rem;}}
+.animate-spin{animation-duration: 10s;}
+.animate-spin-reverse{animation: rotate 10s infinite reverse linear;}@keyframes rotate {from{}to{transform: rotate(360deg);} }
+.dropAnimation{animation: drop .6s 1 forwards linear;}@keyframes drop{0%{transform: translateY(-100%);}80%,100%{transform: translateY(250%);}90%{transform: translateY(220%);}}
