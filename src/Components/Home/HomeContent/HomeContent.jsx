@@ -4,8 +4,8 @@ import AnimatedBox from '../../AnimatedCircles/AnimatedBox'
 function HomeContent({lines,image_src_2,image_src_3,image_src_4,box}) {
   return (
     <>
-<AnimatedBox box={box}/>
     <div className='flex justify-between items-center relative w-screen h-screen px-20'>
+    <img src={box} className='absolute top-20 w-32 left-24 dropAnimation' />
     <div className='flex flex-col gap-4 mb-44 z-10'>
     <img src={lines} className='absolute -top-10 h-[30rem] -left-10 w-[50rem] slide4  z-0 ' />
        <h1 className='text-white text-9xl font-bold slide1 translate-x-[-200%]' style={{fontStyle:"italic"}}>VIZZLA</h1>

@@ -20,4 +20,4 @@
 .slide4{animation: slide4 1s 1 forwards ease-out;}@keyframes slide4 {from{width: 0rem;}to{width: 50rem;}}
 .animate-spin{animation-duration: 10s;}
 .animate-spin-reverse{animation: rotate 10s infinite reverse linear;}@keyframes rotate {from{}to{transform: rotate(360deg);} }
-.dropAnimation{animation: drop .6s 1 forwards linear;}@keyframes drop{0%{transform: translateY(-100%);}80%,100%{transform: translateY(250%);}90%{transform: translateY(220%);}}
+.dropAnimation{animation: drop .6s 1 forwards linear;}@keyframes drop{0%{transform: translateY(-100%);}80%,100%{transform: translateY(220%);}90%{transform: translateY(200%);}}
