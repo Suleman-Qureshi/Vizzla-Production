@@ -14,7 +14,7 @@ function Home() {
   return (
     <div id='Home' className='w-screen h-screen bg-[#101010] overflow-hidden'>
       <Navbar  Logo={Logo}/>
-      <HomeContent image_src_1={image_1} image_src_2={image_2} image_src_3={image_3} image_src_4={image_4} lines={lines} box={box}/>
+      <HomeContent image_src_1={image_1} image_src_2={image_2} image_src_3={image_3} image_src_4={image_4} box={box}/>
     </div>
   )
 }
